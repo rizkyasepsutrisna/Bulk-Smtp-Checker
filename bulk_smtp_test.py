@@ -11,7 +11,7 @@ Features:
  - Supports dry-run (login only), parallel execution, rate limiting (requests/sec)
  - Live progress bar via tqdm (optional, auto-fallback if missing)
  - Colored output via colorama (optional)
- - Default recipient: rizkyasepsutrisna@outlook.com (override with --to)
+ - Default recipient: yourmail@mail.com (override with --to)
  - Saves: CSV + success/fail TXT files + end-of-run summary
 """
 
@@ -47,7 +47,7 @@ except Exception:
 
 # ---------- Configuration ----------
 DEFAULT_TIMEOUT = 12
-DEFAULT_TO = "rizkyasepsutrisna@outlook.com"
+DEFAULT_TO = "yourmail@mail.com"
 FIXED_SUBJECT = "SMTP TEST"
 FIXED_BODY = "This is an automated SMTP test message."
 # ----------------------------------
