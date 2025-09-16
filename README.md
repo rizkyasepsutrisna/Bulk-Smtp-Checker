@@ -26,7 +26,7 @@ A Python script for performing **bulk SMTP account testing** from a text file. T
   - `--parallel` — enable multi-threaded execution (uses `--workers`)
   - `--workers N` — number of worker threads (default: 8)
   - `--rate N` — global requests-per-second rate limit (0 = no limit)
-  - `--to ADDRESS` — override default test recipient (default: `rizkyasepsutrisna@outlook.com`)
+  - `--to ADDRESS` — override default test recipient (default: `yourmail@mail.com`)
   - `--timeout` — connection timeout in seconds (default 12)
   - `--no-color` — disable colored console output
   - `--no-banner` — disable ASCII banner and small visual effects
